@@ -12,7 +12,7 @@ The package does two things:
     - **Tabular Data**: DataFrames+DataFramesMeta+Missings+ShiftedArrays
     - **Importing Data**: CSVFiles+ExcelFiles+StatFiles+SASLib
     - **Fetching Data**: BeaData+FredData
-    - **Statistics**: StatsBase+GLM+Distributions
+    - **Statistics**: StatsBase+GLM+Distributions+RollingFunctions
  2. It contains a small collection of functions that I use repeatedly, but haven't found in any other package.
     - Functions helping with simple data manipulation
     - Trend-cycle filters (Hodrick-Prescott, Hamilton)

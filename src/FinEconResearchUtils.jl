@@ -16,8 +16,15 @@ using Reexport
     @reexport using StatsBase
     @reexport using GLM
     @reexport using Distributions
+    @reexport using RollingFunctions
 
 include("utils.jl")
+
+export rollingfillfirst, 
+    detrend, hp_filter,
+    tomissing!, alltomissing!,
+    maxdrawdown,
+    lastnonzero, dropcols, yrqtrfun
 
 
 end # module
