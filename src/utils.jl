@@ -47,6 +47,18 @@ function rollingfillfirst(fun::Function, data::AbstractArray{T1,1}, windowspan::
 	return outtmp
 end
 
+function rollingfillfirst(fun::Function, data1::AbstractArray{T1,1},data2::AbstractArray{T1,1},windowspan::Int64,filler::T2) where {T1,T2<:Union{Missing,Number}}
+	TL = size(data1,1)
+	TL2 = size(data2,1)
+	@assert TL == TL2
+	FL = windowspan - 1
+	outtmp = allowmissing(zeros(TL))
+	outtmp[1:FL] .= filler
+	outtmp[(1+FL):end]=rolling(fun,data1,data2,windowspan)
+	return outtmp
+end
+
+
 
 
 
