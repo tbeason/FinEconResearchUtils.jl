@@ -1,1 +1,19 @@
 julia 1.0
+Reexport
+Dates
+Statistics
+DataFrames
+DataFramesMeta
+Missings
+ShiftedArrays
+CSVFiles
+ExcelFiles
+StatFiles
+SASLib
+BeaData
+FredData
+StatsBase
+GLM
+Distributions
+LinearAlgebra
+SparseArrays

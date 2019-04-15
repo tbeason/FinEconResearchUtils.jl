@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-# FinEconResearchUtils
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://tbeason.github.io/FinEconResearchUtils.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://tbeason.github.io/FinEconResearchUtils.jl/dev)
-[![Build Status](https://travis-ci.com/tbeason/FinEconResearchUtils.jl.svg?branch=master)](https://travis-ci.com/tbeason/FinEconResearchUtils.jl)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/tbeason/FinEconResearchUtils.jl?svg=true)](https://ci.appveyor.com/project/tbeason/FinEconResearchUtils-jl)
-[![Coveralls](https://coveralls.io/repos/github/tbeason/FinEconResearchUtils.jl/badge.svg?branch=master)](https://coveralls.io/github/tbeason/FinEconResearchUtils.jl?branch=master)
-=======
 # FinEconResearchUtils.jl
+
+[![Build Status](https://travis-ci.com/tbeason/FinEconResearchUtils.jl.svg?branch=master)](https://travis-ci.com/tbeason/FinEconResearchUtils.jl)
+
+
 A collection of useful packages and utilities for doing financial economics research in Julia. This package is intended for endusers and not intended to become part of a package development chain. 
 
 The package does two things:
@@ -37,5 +33,5 @@ add https://github.com/tbeason/FinEconResearchUtils.jl
  
 After installation, return to the REPL and type `using FinEconResearchUtils.jl`.
  
-Two packages require additional setup to use their functionality, those are BeaData.jl and FredData.jl. You must register on the BEA or FRED websites to receive an API key before using these packages. If you do not wish to use this functionality, it will not intefere with this package if you do not register.
->>>>>>> e8cb0772858050976cf9ce669756b033c9c0ff85
+Two packages require additional setup to use their functionality, those are BeaData.jl and FredData.jl. You must register on the BEA or FRED websites to receive an API key before using these packages. If you do not wish to use this functionality, it will not interfere with this package if you do not register.
+
