@@ -1,0 +1,10 @@
+name = "FinEconResearchUtils"
+uuid = "2d5c05d4-670c-5a9e-a450-e92364ef6ead"
+authors = ["Tyler Beason <tbeas12@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
